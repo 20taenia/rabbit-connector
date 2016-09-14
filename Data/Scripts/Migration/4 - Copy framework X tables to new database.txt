@@ -1,0 +1,7 @@
+In sql server 
+ - Right click database
+ - Select tasks
+ - Select generate scripts
+ - Select just X tables 
+ - Ensure in scripting options to select schema and data for scripting
+ - Run the generated script in a new blank database

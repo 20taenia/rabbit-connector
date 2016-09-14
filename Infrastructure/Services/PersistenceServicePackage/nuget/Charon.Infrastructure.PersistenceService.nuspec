@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Charon.Infrastructure.PersistenceService</id>
+		<version>1.0.1</version>
+		<title>Charon Persistence Service</title>
+		<authors>Wij Skinner</authors>
+		<owners>Charon International Trading Ltd</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Persistence Service providing access to the Charon Group message bus.</description>
+		<releaseNotes>Initial release</releaseNotes>
+		<copyright>Copyright 2016</copyright>
+		<tags>Charon Persistence Service</tags>
+		<dependencies>
+			<group targetFramework="net45">
+				<dependency id="EasyNetQ" version="0.59.0.434"/>
+				<dependency id="EasyNetQ.Management.Client" version="0.51.1.102"/>
+				<dependency id="FastMember" version="1.0.0.11"/>
+				<dependency id="Newtonsoft.Json" version="8.0.3"/>
+				<dependency id="RabbitMQ.Client" version="3.6.2"/>
+				<dependency id="Serialize.Linq" version="1.2.4"/>
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\bin\Release\Charon.Core.Entities.dll" target="lib\net45\Charon.Core.Entities.dll"/>
+		<file src="..\bin\Release\Charon.Core.Messaging.dll" target="lib\net45\Charon.Core.Messaging.dll"/>
+		<file src="..\bin\Release\Charon.Core.Services.dll" target="lib\net45\Charon.Core.Services.dll"/>
+		<file src="..\bin\Release\Charon.Core.Utilities.dll" target="lib\net45\Charon.Core.Utilities.dll"/>
+		<file src="..\bin\Release\Charon.Messaging.dll" target="lib\net45\Charon.Messaging.dll"/>
+		<file src="..\bin\Release\Charon.Infrastructure.PersistenceService.dll" target="lib\net45\Charon.Infrastructure.PersistenceService.dll"/>
+	</files>
+</package>
